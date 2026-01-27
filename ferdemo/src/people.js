@@ -1,9 +1,9 @@
-export function people(){
+ function People(){
     let numbers = [1, 2, 3, 4, 5];
     let names = ["An", "Tình", "Mi", "lung"];
     const people = [
-        
-        { id: 1, name: "An", age: 20 },
+
+        { id: 1, name: "Ann", age: 20 },
         { id: 2, name: "Bình", age: 22 },
         { id: 3, name: "Chi", age: 19 },
         { id: 4, name: "Dung", age: 21 },
@@ -49,3 +49,4 @@ export function people(){
         </div>
     )
 }
+export default People;
