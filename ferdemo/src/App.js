@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <People/>
-      <FoodOrder />
       <Header />
+      <FoodOrder />
       <Footer />
     </div>
   );
