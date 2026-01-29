@@ -1,15 +1,20 @@
-import logo from './logo.svg';
-import FoodOrder from './components/FoodOrder';
 import './App.css';
 import Header from './components/Header';
+import FoodOrder from './components/FoodOrder';
+import People from './components/People';
 import Footer from './components/Footer';
-import People from './people';
+
 function App() {
   return (
-    <div>
-      <People/>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
-      <FoodOrder />
+      <main className="flex-grow-1">
+        <FoodOrder />
+        <div className="container">
+          <hr className="my-5" />
+        </div>
+        <People />
+      </main>
       <Footer />
     </div>
   );
