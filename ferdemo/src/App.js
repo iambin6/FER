@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import HeroBanner from './components/HeroBanner';
 import FoodOrder from './components/FoodOrder';
 import People from './components/People';
 import Footer from './components/Footer';
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Header />
+      <HeroBanner />  
       <main className="flex-grow-1">
         <FoodOrder />
         <div className="container">
